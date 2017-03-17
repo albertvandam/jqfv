@@ -1,0 +1,21 @@
+{
+  "options": {
+    "title": "\nAnother jQuery Form Validation plugin\n",
+    "description": " ",
+    "formatting": {
+      "addPeriod": false
+    },
+    "hideTasks": true,
+    "taskGroups": [
+      {
+        "header": "Build",
+        "tasks": [
+          "build"
+        ]
+      }
+    ],
+    "taskDescriptionOverrides": {
+      "build": "Create a build for deployment"
+    }
+  }
+}

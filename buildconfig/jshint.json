@@ -1,0 +1,66 @@
+{
+  "options": {
+    "eqeqeq": true,
+    "newcap": true,
+    "noarg": true,
+    "browser": true,
+    "undef": true,
+    "unused": true,
+    "curly": true,
+    "esversion": 5,
+    "forin": true,
+    "bitwise": true,
+    "latedef": "nofunc",
+    "nocomma": true,
+    "nonbsp": true,
+    "nonew": true,
+    "freeze": true,
+    "futurehostile": true,
+    "shadow": "outer",
+    "strict": true,
+    "jquery": true
+  },
+  "js": [
+    "src/js/**/*.js"
+  ],
+  "grunt": {
+    "options": {
+      "eqeqeq": true,
+      "newcap": true,
+      "noarg": true,
+      "browser": true,
+      "undef": true,
+      "unused": true,
+      "curly": true,
+      "esversion": 5,
+      "forin": true,
+      "bitwise": true,
+      "latedef": "nofunc",
+      "nocomma": true,
+      "nonbsp": true,
+      "nonew": true,
+      "freeze": true,
+      "futurehostile": true,
+      "shadow": "outer",
+      "strict": true,
+      "node": true,
+      "jquery": false
+    },
+    "files": {
+      "src": [
+        "Gruntfile.js",
+        "buildconfig/**/*.js"
+      ]
+    }
+  },
+  "externs": {
+    "options": {
+      "unused": false
+    },
+    "files": {
+      "src": [
+        "externs/**/*.js"
+      ]
+    }
+  }
+}

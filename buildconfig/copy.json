@@ -1,0 +1,15 @@
+{
+  "externs": {
+    "files": [
+      {
+        "expand": true,
+        "flatten": true,
+        "src": [
+          "externs/**/*.js"
+        ],
+        "dest": "dist/externs",
+        "filter": "isFile"
+      }
+    ]
+  }
+}

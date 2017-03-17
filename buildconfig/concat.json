@@ -1,0 +1,9 @@
+{
+  "app": {
+    "src": [
+      "src/js/license.js",
+      "build/jqfv.min.js"
+    ],
+    "dest": "dist/jqfv.min.js"
+  }
+}

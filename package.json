@@ -1,0 +1,25 @@
+{
+  "name": "jqfv",
+  "version": "1.0.0",
+  "description": "Another jQuery Form Validation plugin",
+  "main": "jqfv.js",
+  "repository": "https://github.com/albertvandam/jqfv.git",
+  "author": "Albert van Dam",
+  "license": "MIT",
+  "devDependencies": {
+    "google-closure-compiler": ">=20170218.0.0",
+    "grunt": "^1.0",
+    "grunt-contrib-clean": "^1.0",
+    "grunt-contrib-concat": "^1.0",
+    "grunt-contrib-copy": "^1.0",
+    "grunt-contrib-cssmin": "^1.0",
+    "grunt-contrib-jshint": "^1.0",
+    "grunt-contrib-less": "^1.4",
+    "grunt-lesslint": "^3.2",
+    "grunt-usage": "^1.1",
+    "less": "^2.7",
+    "less-plugin-autoprefix": "^1.5",
+    "load-grunt-tasks": "^3.5",
+    "time-grunt": "^1.3"
+  }
+}

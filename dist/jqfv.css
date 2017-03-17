@@ -1,0 +1,31 @@
+.form-field {
+  width: 50%;
+  float: left;
+}
+.validation-description {
+  width: 50%;
+  float: left;
+}
+label {
+  margin-top: 20px;
+  font-weight: bold;
+}
+label::before {
+  content: ' ';
+  clear: both;
+}
+input,
+select {
+  width: 100%;
+}
+input:required,
+select:required {
+  border-left: 5px solid blue;
+}
+input:invalid,
+select:invalid {
+  border-left: 5px solid red;
+}
+.jqfv-error {
+  color: red;
+}

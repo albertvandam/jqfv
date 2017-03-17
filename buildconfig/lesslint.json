@@ -1,0 +1,32 @@
+{
+  "styles": {
+    "options": {
+      "csslint": {
+        "import": 2,
+        "duplicate-properties": 2,
+        "empty-rules": 2,
+        "known-properties": 2,
+        "compatible-vendor-prefixes": 2,
+        "vendor-prefix": 2,
+        "underscore-property-hack": 2,
+        "regex-selector": 2,
+        "zero-units": 2,
+        "overqualified-elements": 2,
+        "bulletproof-font-face": false,
+        "universal-selector": false,
+        "adjoining-classes": false,
+        "outline-none": false,
+        "text-indent": false,
+        "box-model": false,
+        "font-sizes": false,
+        "fallback-colors": false,
+        "font-faces": false,
+        "box-sizing": false,
+        "floats": false
+      }
+    },
+    "src": [
+      "src/less/**/*.less"
+    ]
+  }
+}
